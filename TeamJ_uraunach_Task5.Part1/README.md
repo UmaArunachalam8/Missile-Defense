@@ -1,5 +1,5 @@
 # Game
-An AI agent dodges missile to survive in a hostile environment
+An AI agent dodges missile to survive in a hostile environment. 
 ## Program Overview
 * My AI agent keeps track of the unsafe zones using an array of size w (same size as the width of the game screen) using binary values (1 - Unsafe, 0 - Safe). At every time instant:
      * Any explosions taking place at the current time instant are marked unsafe by accessing the list of explosions struct using an instance of the game class.
@@ -14,4 +14,4 @@ An AI agent dodges missile to survive in a hostile environment
 * I made a mistake in calculating position of the projectile and hence was facing issues in moving the agent to the desired location.
 * Another  mistake  I  made  was  not  realizing  what  pickSafeSpot  function  returns.I  assumed  it  can  return  float  and  hence  was  not  able  to  impose  the  kinematic constraint
 
-This was developed as a part of a course assignment at CMU
+This was developed as a part of a course assignment at CMU. Controller.cpp was the main file which controls the agent.
